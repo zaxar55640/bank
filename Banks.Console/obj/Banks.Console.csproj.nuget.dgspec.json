@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks.Console\\Banks.Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks.Console\\Banks.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks.Console\\Banks.Console.csproj",
+        "projectName": "Banks.Console",
+        "projectPath": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks.Console\\Banks.Console.csproj",
+        "packagesPath": "C:\\Users\\Захар\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Захар\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks\\Banks.csproj": {
+                "projectPath": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks\\Banks.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.0-rc2, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.0-rc2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Захар\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks\\Banks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks\\Banks.csproj",
+        "projectName": "Banks",
+        "projectPath": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks\\Banks.csproj",
+        "packagesPath": "C:\\Users\\Захар\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Захар\\Documents\\GitHub\\zaxar55640\\Lab4\\Banks\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Захар\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.0-rc2, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.0-rc2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Захар\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
